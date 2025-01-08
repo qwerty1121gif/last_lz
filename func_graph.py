@@ -16,3 +16,4 @@ def plot_function(min_x, max_x):
     plt.title(f'График функции $f(x) = x \\cdot \\sin(x)$ на отрезке [{min_x}, {max_x}]')
     plt.grid(True)
     plt.show()
+    
