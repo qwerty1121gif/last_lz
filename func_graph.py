@@ -2,12 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def plot_function(min_x, max_x):
-    """
-    Функция строит график функции y = x * sin(x) в пределах от min_x до max_x.
-    
-    :param min_x: минимальное значение x
-    :param max_x: максимальное значение x
-    """
+    #Функция строит график функции y = x * sin(x) в пределах от min_x до max_x.
     # Создаем массив значений x
     x = np.linspace(min_x, max_x, 1000)
     
